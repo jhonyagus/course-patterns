@@ -1,0 +1,14 @@
+In KpPrepTB I can use a chain of responsibility to create a chain to we can try to take item from queue
+
+In this sense i can create maybe a chain -> FryNextNormalItemsSupport -> FryNextPlanItemsSupport
+
+if we can take from the normal items great! otherwise try to get from the plan items!
+
+
+Related to Structure pattern
+Flyweight - I can use this in the history setting, i could use this to add a method on the classes
+to complete a data with the other info on the state and use in other parts of the code.
+
+Template method is actually using on the Predictive Algorithms
+this create a template with abstract class and share code and steps, and delegates a specific 
+to concretes classes
