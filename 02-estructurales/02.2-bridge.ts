@@ -76,7 +76,7 @@ class ReminderNotification extends Notification {
 }
 
 class PushNotification extends Notification {
-  //**Especializacion customizada aqui!!, ejemplo validar si estamos con una pantalla activa etc.
+  //**Especialización personalizada aquí!!, ejemplo validar si estamos con una pantalla activa etc.
   override notify(message: string): void {
     console.log("\n%cNotificación de Push:", COLORS.green);
     this.channel.send(message);
